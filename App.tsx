@@ -1,6 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import HelloComponent from './src/helloComponent';
+import HelloComponent from './src/HelloComponent';
 
 const App = () => {
   return (

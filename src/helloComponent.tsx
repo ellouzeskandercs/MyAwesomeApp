@@ -3,14 +3,14 @@ import {StyleSheet, Text, View} from 'react-native';
 
 const HelloComponent = () => {
   return (
-    <View style={styles.HelloContainer}>
+    <View style={styles.helloContainer}>
       <Text style={styles.helloText}> Hello </Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  HelloContainer: {
+  helloContainer: {
     paddingHorizontal: 24,
     paddingVertical: 6,
     backgroundColor: 'red',
