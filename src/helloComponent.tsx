@@ -11,8 +11,10 @@ const HelloComponent = () => {
 
 const styles = StyleSheet.create({
   helloContainer: {
-    paddingHorizontal: 24,
-    paddingVertical: 6,
+    height: 80,
+    width: 80,
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: 'red',
   },
   helloText: {
