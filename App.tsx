@@ -1,8 +1,13 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
+import HelloComponent from './src/helloComponent';
 
 const App = () => {
-  return <SafeAreaView style={styles.App} />;
+  return (
+    <SafeAreaView style={styles.App}>
+      <HelloComponent />
+    </SafeAreaView>
+  );
 };
 
 const styles = StyleSheet.create({
