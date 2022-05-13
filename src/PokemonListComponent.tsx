@@ -1,14 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, Text, ScrollView} from 'react-native';
+import {PokemonInfoBoxComponent} from './PokemonInfoBoxComponent';
 import pokemonList from './pokemons.json';
-
-const PokemonInfoBox = (props: {name: string}) => {
-  return (
-    <View style={styles.pokemonInfoBox}>
-      <Text style={styles.pokemonBoxText}> {props.name} </Text>
-    </View>
-  );
-};
 
 const PokemonListComponent = () => {
   return (
@@ -16,7 +9,10 @@ const PokemonListComponent = () => {
       <Text style={styles.pokemonListHeader}>Welcome to the pokemon world</Text>
       <ScrollView>
         {pokemonList.results.map((pokemonInfo: {name: string; url: string}) => (
-          <PokemonInfoBox name={pokemonInfo.name} />
+          <PokemonInfoBoxComponent
+            key={pokemonInfo.url}
+            name={pokemonInfo.name}
+          />
         ))}
       </ScrollView>
     </View>
@@ -24,18 +20,6 @@ const PokemonListComponent = () => {
 };
 
 const styles = StyleSheet.create({
-  pokemonInfoBox: {
-    marginTop: 10,
-    height: 40,
-    width: '100%',
-    borderRadius: 8,
-    backgroundColor: 'powderblue',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  pokemonBoxText: {
-    fontSize: 18,
-  },
   pokemonListContainer: {
     paddingHorizontal: 10,
     paddingVertical: 20,
@@ -48,4 +32,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default PokemonListComponent;
+export {PokemonListComponent};
