@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "paddingVertical": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 30,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to the pokemon world
+  </Text>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          bulbasaur
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          ivysaur
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          venusaur
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          charmander
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          charmeleon
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          charizard
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          squirtle
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          wartortle
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          blastoise
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          caterpie
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          metapod
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          butterfree
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          weedle
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          kakuna
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          beedrill
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          pidgey
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          pidgeotto
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          pidgeot
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          rattata
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "powderblue",
+            "borderRadius": 8,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+           
+          raticate
+           
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
