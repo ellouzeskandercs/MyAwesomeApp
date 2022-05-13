@@ -1,20 +1,25 @@
 import React from 'react';
-import {View, StyleSheet, Text, ScrollView} from 'react-native';
+import {View, StyleSheet, Text, FlatList} from 'react-native';
 import {PokemonInfoBoxComponent} from './PokemonInfoBoxComponent';
 import pokemonList from './pokemons.json';
 
 const PokemonListComponent = () => {
+  const renderPokemonInfoBox = ({
+    item,
+  }: {
+    item: {name: string; url: string};
+  }) => {
+    return <PokemonInfoBoxComponent key={item.url} name={item.name} />;
+  };
+
   return (
     <View style={styles.pokemonListContainer}>
       <Text style={styles.pokemonListHeader}>Welcome to the pokemon world</Text>
-      <ScrollView>
-        {pokemonList.results.map((pokemonInfo: {name: string; url: string}) => (
-          <PokemonInfoBoxComponent
-            key={pokemonInfo.url}
-            name={pokemonInfo.name}
-          />
-        ))}
-      </ScrollView>
+      <FlatList
+        data={pokemonList.results}
+        keyExtractor={item => item.url}
+        renderItem={renderPokemonInfoBox}
+      />
     </View>
   );
 };
