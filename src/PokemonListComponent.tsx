@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, StyleSheet, Text, ScrollView} from 'react-native';
+import pokemonList from './pokemons.json';
 
 const PokemonInfoBox = (props: {name: string}) => {
   return (
@@ -14,21 +15,9 @@ const PokemonListComponent = () => {
     <View style={styles.pokemonListContainer}>
       <Text style={styles.pokemonListHeader}>Welcome to the pokemon world</Text>
       <ScrollView>
-        <PokemonInfoBox name="pokemon 1" />
-        <PokemonInfoBox name="pokemon 2" />
-        <PokemonInfoBox name="pokemon 3" />
-        <PokemonInfoBox name="pokemon 4" />
-        <PokemonInfoBox name="pokemon 5" />
-        <PokemonInfoBox name="pokemon 6" />
-        <PokemonInfoBox name="pokemon 7" />
-        <PokemonInfoBox name="pokemon 8" />
-        <PokemonInfoBox name="pokemon 9" />
-        <PokemonInfoBox name="pokemon 10" />
-        <PokemonInfoBox name="pokemon 11" />
-        <PokemonInfoBox name="pokemon 12" />
-        <PokemonInfoBox name="pokemon 13" />
-        <PokemonInfoBox name="pokemon 14" />
-        <PokemonInfoBox name="pokemon 15" />
+        {pokemonList.results.map((pokemonInfo: {name: string; url: string}) => (
+          <PokemonInfoBox name={pokemonInfo.name} />
+        ))}
       </ScrollView>
     </View>
   );
